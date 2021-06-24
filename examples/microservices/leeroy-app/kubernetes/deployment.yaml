@@ -28,6 +28,7 @@ spec:
       labels:
         app: leeroy-app
     spec:
+      serviceAccountName: ienergy
       containers:
       - name: leeroy-app
         image: leeroy-app
