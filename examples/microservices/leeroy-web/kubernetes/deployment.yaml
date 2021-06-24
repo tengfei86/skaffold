@@ -30,7 +30,7 @@ spec:
       labels:
         app: leeroy-web
     spec:
-      servcieAccountName: ienergy
+      serviceAccountName: ienergy
       containers:
       - name: leeroy-web
         image: gcr.io/k8s-skaffold/leeroy-web
